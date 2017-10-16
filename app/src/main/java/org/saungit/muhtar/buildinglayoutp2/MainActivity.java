@@ -1,5 +1,6 @@
 package org.saungit.muhtar.buildinglayoutp2;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -17,9 +18,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnMinus = (Button) findViewById(R.id.btnMinus);
-        Button btnPlus = (Button) findViewById(R.id.btnPlus);
-        textNumber = (TextView) findViewById(R.id.number);
+        btnMinus = (Button) findViewById(R.id.btn_minus);
+        Button btnPlus = (Button) findViewById(R.id.btn_plus);
+        Button btnSubmit = (Button) findViewById(R.id.btn_submit);
+        textNumber = (TextView) findViewById(R.id.text_view_number);
 
         btnPlus.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +36,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                     x = x - 1;
                     textNumber.setText(""+x);
+            }
+        });
+
+        btnSubmit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ResultActivity.class);
+                intent.putExtra("qty", String.valueOf(x));
+                startActivity(intent);
             }
         });
     }

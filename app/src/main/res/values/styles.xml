@@ -9,7 +9,7 @@
     </style>
 
     <style name="myTextView" parent="@android:style/Widget.TextView">
-        <item name="android:textSize">@dimen/dimen20sp</item>
+        <item name="android:textSize">@dimen/dimen16sp</item>
         <item name="android:textColor">@android:color/black</item>
         <item name="android:textStyle">bold</item>
     </style>

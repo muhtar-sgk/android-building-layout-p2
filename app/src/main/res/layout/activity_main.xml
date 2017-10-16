@@ -6,50 +6,55 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context="org.saungit.muhtar.buildinglayoutp2.MainActivity">
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="@dimen/dimen10dp">
         <Button
-            android:id="@+id/btnMinus"
+            android:id="@+id/btn_minus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="-"
+            android:text="@string/minus"
             android:clickable="true"
-            android:textSize="20sp"/>
+            android:textSize="@dimen/dimen20sp"/>
 
         <TextView
-            android:id="@+id/number"
+            android:id="@+id/text_view_number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0"
-            android:textSize="20sp"
-            android:layout_margin="10dp"
+            android:text="@string/zero"
+            android:textSize="@dimen/dimen20sp"
+            android:layout_margin="@dimen/dimen10dp"
             android:layout_gravity="center"/>
 
         <Button
-            android:id="@+id/btnPlus"
+            android:id="@+id/btn_plus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="+"
-            android:textSize="20sp"/>
+            android:text="@string/plus"
+            android:textSize="@dimen/dimen20sp"/>
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textBuku"
-        android:layout_marginTop="10dp"
+        android:id="@+id/text_view_buku"
+        android:layout_marginTop="@dimen/dimen10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Buku Kalkulus"
+        android:text="@string/dasar_dasar_kalkulus"
         style="@style/myTextView"/>
 
     <TextView
-        android:id="@+id/textHarga"
+        android:id="@+id/text_view_harga"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="0"
+        android:text="@string/price"
         style="@style/myTextView"/>
 
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen20dp"
+        android:text="@string/submit"/>
 </LinearLayout>

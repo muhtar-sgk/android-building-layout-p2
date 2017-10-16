@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/muhtar/Public/AndroidProjects/BuildingLayoutP2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/muhtar/Public/AndroidProjects/android-building-layout-p2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cebdb45f7dcd9359583d633c4bf0bbf876934feb">
+        <dex dex="/Users/muhtar/Public/AndroidProjects/android-building-layout-p2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_db40e35e192aa41484272de4d2b31706bf64db39/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/muhtar/Public/AndroidProjects/android-building-layout-p2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/muhtar/Public/AndroidProjects/BuildingLayoutP2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e42d3eecb4119eeba88eee66203aa12e8b0013ef/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/muhtar/Public/AndroidProjects/BuildingLayoutP2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="ae8d5b7b486e3d5acdd4124d060f89519ee0d834">
-        <dex dex="/Users/muhtar/Public/AndroidProjects/BuildingLayoutP2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a96a40a2bd4b775ab4937275a6f6ceb09948615a/classes.dex" />
+        <dex dex="/Users/muhtar/Public/AndroidProjects/android-building-layout-p2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c1ee35d0823ee609bc9d82160b39b50387061ffe/classes.dex" />
     </item>
 
 </items>
